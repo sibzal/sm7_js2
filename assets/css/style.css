@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Julius Sans One', sans-serif;
+    color: #fefefe;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.list{
+    padding: 100px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.post{
+    padding: 20px;
+    background-color: rgb(235, 177, 246);
+    border-radius: 10px;
+}
+
+.id{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.317);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.body{
+    font-size: 18px;
+    text-align: center;
+}
